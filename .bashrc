@@ -115,3 +115,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# flatpak app alias
+alias code="flatpak run com.visualstudio.code"
