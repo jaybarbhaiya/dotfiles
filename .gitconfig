@@ -1,3 +1,9 @@
 [user]
 	name = Jay Barbhaiya
 	email = 7147878+jaybarbhaiya@users.noreply.github.com
+[credential "https://github.com"]
+	helper = 
+	helper = !/home/linuxbrew/.linuxbrew/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/home/linuxbrew/.linuxbrew/bin/gh auth git-credential
