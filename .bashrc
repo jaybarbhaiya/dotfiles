@@ -116,9 +116,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# flatpak app alias
-alias code="flatpak run com.visualstudio.code"
-
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 export NVM_DIR="$HOME/.nvm"
@@ -126,3 +123,4 @@ export NVM_DIR="$HOME/.nvm"
   [ -s "/home/linuxbrew/.linuxbrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/home/linuxbrew/.linuxbrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
 eval "$(oh-my-posh init bash --config ~/.dotfiles/oh-my-posh/emodipt-extend.omp.json)"
+. "$HOME/.cargo/env"
