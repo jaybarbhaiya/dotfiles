@@ -124,3 +124,4 @@ export NVM_DIR="$HOME/.nvm"
 
 eval "$(oh-my-posh init bash --config ~/.dotfiles/oh-my-posh/emodipt-extend.omp.json)"
 . "$HOME/.cargo/env"
+export PATH=$HOME/.local/bin:$PATH
